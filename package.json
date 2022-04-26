@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "request.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --watchAll",
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js",
     "lint:styles": "stylelint **/*.css --config .stylelintrc.json --ignore-disables --allow-empty-input"
   },
